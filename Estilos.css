@@ -1,0 +1,524 @@
+/* Reseteo */
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* encabezado */
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+header nav img{
+    width: 20rem;
+    height: auto;
+}
+header nav ol{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: end;
+    margin-right: 3rem;
+    align-items: center;
+}
+header nav ol li{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ol li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vw;
+}
+header nav ol li a:hover{
+    text-decoration: none;
+    background-color: #2c5712af;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vw;
+}
+header nav ol li a:active{
+    text-decoration: none;
+    background-color: #2D5712;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5vw;
+}
+#PaginaActual{
+    background-color: #2D5712;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+}
+/* imagen de portada con texto encima */
+#portada{
+    position: relative;
+}
+#portada img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#portada .nombrePagina{
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    color: white;
+    font-size: 5vw;
+    font-family: 'Lato', sans-serif;
+}
+#portada .nombrePagina h1, 
+#portada .NombrePaginaProdAptos h1{
+    line-height: 5.5vw;
+}
+#portada .nombrePagina h1:nth-child(2),
+#portada .NombrePaginaProdAptos h1:nth-child(2){
+    font-family: 'Inter', sans-serif;
+    font-size: 6vw;
+}
+#portada h3{
+    position: absolute;
+    bottom: 4vw;
+    right: 4vw;
+    padding: 1vw;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+    right: 2vw;
+}
+
+/* Informacion */
+#ContenidoRazones{
+    padding: 0;
+}
+#ContenidoRazones h2{
+    font-family: 'Inter', sans-serif;
+    margin: 2% 0;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+}
+.TresRazones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 3rem;
+
+}
+.Razones{
+    background-color: #2D5712;
+    margin: 1vw;
+    min-height: 90vh;
+    width: 40vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.Razones div img{
+    height: 15rem;
+    width: auto;
+    margin-bottom: 15% ;
+    overflow: hidden;
+}
+.Razones h3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin-top: 4%;
+    font-size: 400%;
+}
+.Razones p{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-size: 300%;
+    margin: 0 10%;
+}
+@media (max-width: 900px){
+    #ContenidoRazones h2{
+        font-size: 12vw;
+    }
+    .TresRazones{
+        display: flex;
+        flex-direction: column;
+    }
+    .Razones{
+        min-height: 50vw;
+        width: 90vw;
+        gap: 3vw;
+        padding:2vw;
+    }
+    .Razones h3{
+        font-size: 4vw;
+    }
+    .Razones p{
+        font-size: 3vw;
+    }
+    .Razones div img{
+        height: 13vw;
+    }
+}
+
+/* Comenzamos con el estilo de algunas cosas personalizadas de la pagina productos aptos */
+.ProdAptos{
+    background-color: #EDEDED;
+}
+.contenedor{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portada .NombrePaginaProdAptos{
+    position: absolute;
+    bottom: 5vw;
+    right: 5vw;
+    color: black;
+    font-size: 5vw;
+    font-family: 'Lato', sans-serif;
+}
+
+.MenuOpciones{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90rem;
+    height: 15rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    align-items: center;    ;
+}
+.MenuOpciones a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+.MenuOpciones .Iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.MenuOpciones .Iconos img{
+    height:100px;
+}
+.Productos h2{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 5rem;
+}
+.Seccion6Productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Producto{
+    background-color: #EDEDED;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3rem;
+    padding: 2rem 0;    
+    width: 30rem;
+    overflow: hidden;
+}
+.Producto img{
+    height: 9rem;
+}
+.Producto h4{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding-top: 2vw;
+    text-align: center;
+}
+
+@media (max-width: 980px){
+    .Producto{
+        width: 20rem;
+    }
+    .Producto img{
+        height: 7rem;
+    }
+    .Producto h4{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 680px){
+    .Seccion6Productos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Producto{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 480px){
+    .Seccion6Productos{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Producto{
+        width: 20rem;
+    }
+}
+
+/* Comenzamos con el estilo de algunas cosas personalizadas de la pagina nutrientes */
+#portada .NombrePaginaNutrientes h1{
+    position: absolute;
+    bottom: 5vw;
+    right: 5vw;
+    color: black;
+    font-size: 4vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+#portada .NombrePaginaNutrientes h1 strong{
+    position: absolute;
+    bottom: 4vw;
+    left: -45vw;
+    color: black;
+    font-size: 8vw;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.GrupoNutrientes h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 5rem;
+    text-decoration-line: underline;
+    margin: 2rem 0;
+}
+.ListadoNutrientes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.ListadoNutrientes div:nth-child(3n){
+    background-color: #E41D52;
+}
+.ListadoNutrientes div:nth-child(3n+1){
+    background-color: #83AB1A;
+}
+.ListadoNutrientes div:nth-child(3n+2){
+    background-color: #DF9A17;
+}
+.ListadoNutrientes div{
+    padding: 1rem;
+    width: 30rem;
+    height: 15rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.ListadoNutrientes div h4{
+    font-weight: lighter;
+}
+.ListadoNutrientes div h3{
+    font-style: italic;
+}
+
+@media (max-width: 980px){
+    .GrupoNutrientes h2{
+        font-size: 5vw;
+        margin: 0;
+    }
+    .ListadoNutrientes div{
+        padding: 1rem;
+        width: 30vw;
+        height: 15vw;
+        font-size: 3vw;   
+    }
+}
+
+/* Comenzamos con el estilo de algunas cosas personalizadas de la pagina curiosidades*/
+
+#portada .NombrePaginaCuriosidades h1{
+    position: absolute;
+    bottom: 7vw;
+    right: 5vw;
+    color: black;
+    font-size: 2vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+#portada .NombrePaginaCuriosidades h1 strong{
+    position: absolute;
+    bottom: 2vw;
+    left: -45vw;
+    color: black;
+    font-size: 6vw;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.Curiosidades:nth-child(1){
+    background-color: #BCC6B9;
+}.Curiosidades:nth-child(2){
+    background-color: #A6706E;
+}.Curiosidades:nth-child(3){
+    background-color: #9E9B78;
+}.Curiosidades:nth-child(4){
+    background-color: #AF9277;
+}
+.Curiosidades{
+    width: 100%;
+}
+.FotoTextoCuriosidadesIzquierda img, .FotoTextoCuriosidadesDerecha img{
+    grid-area: foto;
+}
+
+.TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p{
+    grid-area: Parrafo;
+}
+.FotoTextoCuriosidadesIzquierda{
+    display: grid;
+    grid-template-areas: 
+    "foto parrafo";
+    grid-template-columns: 1fr 3fr;
+}
+
+.TextoCuriosidades3Filas{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 1rem;
+}
+.TextoCuriosidades4Filas{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 0 1rem;
+}
+.TextoCuriosidades3Filas div, .TextoCuriosidades4Filas div{
+    background-color:white;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p{
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    text-align: start;
+    margin: 0 1rem;
+}
+.TextoCuriosidades3Filas p span, .TextoCuriosidades4Filas p span{
+    font-weight: bolder;
+}
+
+.FotoTextoCuriosidadesDerecha{
+    display: grid;
+    grid-template-areas: 
+    "Parrafo foto";
+    grid-template-columns: 3fr 1fr;
+}
+.Curiosidades h3{
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 5rem;
+    padding: 3rem 0 0 0;
+    margin-bottom: 1rem ;
+}
+
+@media (max-width: 600px) {
+    .FotoTextoCuriosidadesIzquierda, .FotoTextoCuriosidadesDerecha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;  
+    }
+    .TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p{
+        font-size: 4vw;
+    }
+    .FotoTextoCuriosidadesIzquierda img, .FotoTextoCuriosidadesDerecha img{
+        width: 70vw;
+        height: auto;
+    }
+    .Curiosidades h3{
+        font-size: 7vw;
+        display: flex;
+        justify-content: center;
+    }    
+    main{
+        width: 100%;
+    }
+}
+
+/* Comenzamos con el estilo de algunas cosas personalizadas de la pagina Recetas*/
+#portada .NombrePaginaRecetas h1{
+    position: absolute;
+    bottom: 7vw;
+    right: 45vw;
+    color: white;
+    font-size: 4vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+#portada .NombrePaginaRecetas h1 strong{
+    position: absolute;
+    bottom: 4vw;
+    right: 24vw;
+    font-size: 6vw;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.Canal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Youtuber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+.Youtuber img{
+    border-radius: 50%;
+    margin: 2rem;
+}
+.Youtuber h3{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+.Videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
