@@ -300,6 +300,12 @@ nav{
     }
 }
 
+@media (max-width: 991px){
+    .MenuOpciones{
+        display: none;
+    }
+}
+
 /* Comenzamos con el estilo de algunas cosas personalizadas de la pagina nutrientes */
 #portada .NombrePaginaNutrientes h1{
     position: absolute;
