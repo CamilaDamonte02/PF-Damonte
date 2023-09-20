@@ -522,3 +522,15 @@ header nav ol li a:active{
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
 }
+
+@media (max-width: 940px) {
+    iframe{
+        width: 30rem;
+        height: auto;
+    }
+}
+@media (max-width: 650px) {
+    .Videos{
+        grid-template-columns: 1fr;
+    }
+}
