@@ -129,6 +129,7 @@ nav{
     margin: 1vw;
     min-height: 90vh;
     width: 40vh;
+    min-width: 27rem;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -159,7 +160,33 @@ nav{
     font-size: 300%;
     margin: 0 10%;
 }
+
 @media (max-width: 900px){
+    #ContenidoRazones h2{
+        font-size: 12vw;
+    }
+    .TresRazones{
+        display: flex;
+        flex-direction: column;
+    }
+    .Razones{
+        min-height: 50vw;
+        width: 90vw;
+        gap: 3vw;
+        padding:2vw;
+    }
+    .Razones h3{
+        font-size: 4vw;
+    }
+    .Razones p{
+        font-size: 3vw;
+    }
+    .Razones div img{
+        height: 13vw;
+    }
+}
+
+@media (max-width: 950px) and (orientation: landscape){
     #ContenidoRazones h2{
         font-size: 12vw;
     }
