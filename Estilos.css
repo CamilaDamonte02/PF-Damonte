@@ -68,6 +68,9 @@ nav{
     padding: 1rem;
 }
 /* imagen de portada con texto encima */
+* h1 strong{
+    font-size: 7vw;
+}
 #portada{
     position: relative;
 }
