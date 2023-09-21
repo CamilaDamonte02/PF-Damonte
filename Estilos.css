@@ -389,10 +389,23 @@ nav{
 .ListadoNutrientes div h4{
     font-weight: lighter;
 }
+* .ListadoNutrientes h3 {
+    font-size: 2vw;
+}
+* .ListadoNutrientes h4 {
+    font-size: 1.5vw;
+}
 .ListadoNutrientes div h3{
     font-style: italic;
 }
-
+@media (max-width: 1500px){
+    * .ListadoNutrientes h3 {
+        font-size: 3vw;
+    }
+    * .ListadoNutrientes h4 {
+        font-size: 2vw;
+    }
+}
 @media (max-width: 980px){
     .GrupoNutrientes h2{
         font-size: 5vw;
@@ -403,6 +416,20 @@ nav{
         width: 30vw;
         height: 15vw;
         font-size: 3vw;   
+    }
+    * .ListadoNutrientes h3 {
+        font-size: 3rem;
+    }
+    * .ListadoNutrientes h4 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 600px){
+    * .ListadoNutrientes h3 {
+        font-size: 2rem;
+    }
+    * .ListadoNutrientes h4 {
+        font-size: 1rem;
     }
 }
 @media (max-width: 380px){
