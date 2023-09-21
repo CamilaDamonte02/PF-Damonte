@@ -375,7 +375,29 @@ nav{
         font-size: 3vw;   
     }
 }
-
+@media (max-width: 380px){
+    .ListadoNutrientes div:nth-child(2n){
+        background-color: #E41D52;
+    }
+    .ListadoNutrientes div:nth-child(2n+1){
+        background-color: #83AB1A;
+    }
+    .ListadoNutrientes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ListadoNutrientes div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 21vw;
+    }
+    .ListadoNutrientes div h4{
+        font-size: 4vw;  
+    }
+    .ListadoNutrientes div h3{
+        font-size: 5vw;   
+    }
+}
 /* Comenzamos con el estilo de algunas cosas personalizadas de la pagina curiosidades*/
 
 #portada .NombrePaginaCuriosidades h1{
