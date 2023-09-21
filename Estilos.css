@@ -271,6 +271,10 @@ nav{
     font-family: 'Lato', sans-serif;
     font-size: 5rem;
 }
+.Productos a{
+    text-decoration: none;
+    color: black;
+}
 .Seccion6Productos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
