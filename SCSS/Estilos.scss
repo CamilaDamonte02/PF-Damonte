@@ -3,6 +3,13 @@ $FuentePrincipal: 'Lato', sans-serif;
 $FuenteSecundaria: 'Inter', sans-serif;
 $ColorPrincipal: #2D5712;
 
+@mixin Fuente ($TamanioFuente, $ColorFuente, $EstiloFuente, $Decoracion){
+    font-size: $TamanioFuente;
+    color: $ColorFuente;
+    font-family: $EstiloFuente;
+    text-decoration: $Decoracion;
+}
+
 /* Reseteo */
 html{
     font-size: 62.5%;
@@ -33,31 +40,22 @@ header nav{
                 display: flex;
                 justify-content: space-between;
                     a{
-                        text-decoration: none;
-                        color: black;
+                        @include Fuente (1.5vw, black, $FuenteSecundaria, none);
                         display: block;
-                        font-family: $FuenteSecundaria;
-                        font-size: 1.5vw;
                     }
                     a:hover{
-                        text-decoration: none;
+                        @include Fuente (1.5vw, white, $FuenteSecundaria, none);
                         background-color: #2c5712af;
                         border-radius: 10px;
-                        color: white;
                         padding: 1rem;
                         display: block;
-                        font-family: $FuenteSecundaria;
-                        font-size: 1.5vw;
                     }
                     a:active{
-                        text-decoration: none;
-                        background-color: #2D5712;
+                        @include Fuente (1.5vw, white, $FuenteSecundaria, none);
+                        background-color: $ColorPrincipal;
                         border-radius: 10px;
-                        color: white;
                         padding: 1rem;
                         display: block;
-                        font-family: $FuenteSecundaria;
-                        font-size: 1.5vw;
                     }
             }
     }   
@@ -66,7 +64,7 @@ nav{
     background-color: white;
 }
 #PaginaActual{
-    background-color: #2D5712;
+    background-color: $ColorPrincipal;
     border-radius: 10px;
     color: white;
     padding: 1rem;
@@ -86,18 +84,14 @@ nav{
             position: absolute;
             top: 5vw;
             left: 5vw;
-            color: white;
-            font-size: 5vw;
-            font-family: $FuentePrincipal;
+            @include Fuente (5vw, white, $FuentePrincipal, none);
         }
         h3{
             position: absolute;
             bottom: 4vw;
             right: 4vw;
             padding: 1vw;
-            font-family: $FuenteSecundaria;
-            color: white;
-            font-size: 2.5vw;
+            @include Fuente (2.5vw, white, $FuenteSecundaria, none);
             right: 2vw;
         }
 }
@@ -107,10 +101,11 @@ nav{
     line-height: 5.5vw;
 }
 
-#portada .nombrePagina h1:nth-child(2),
+#portada .nombrePagina h1:nth-child(2){
+    @include Fuente (6vw, white, $FuenteSecundaria, none);
+}
 #portada .NombrePaginaProdAptos h1:nth-child(2){
-    font-family: $FuenteSecundaria;
-    font-size: 6vw;
+    @include Fuente (6vw, black, $FuenteSecundaria, none);
 }
 
 footer {
@@ -149,7 +144,7 @@ footer {
 
 }
 .Razones{
-    background-color: #2D5712;
+    background-color: $ColorPrincipal;
     margin: 1vw;
     min-height: 90vh;
     width: 40vh;
@@ -167,20 +162,15 @@ footer {
             overflow: hidden;
         }
         h3{
-            font-family: $FuentePrincipal;
-            color: white;
+            @include Fuente (400%, white, $FuentePrincipal, none);
             text-transform: uppercase;
             text-align: center;
             padding: 0;
             margin-top: 4%;
-            font-size: 400%;
         }
         p{
-            font-family: $FuenteSecundaria;
-            color: white;
+            @include Fuente (300%, white, $FuenteSecundaria, none);
             text-align: center;
-            padding: 0;
-            font-size: 300%;
             margin: 0 10%;
         }
 
@@ -254,9 +244,7 @@ footer {
     position: absolute;
     bottom: 5vw;
     right: 5vw;
-    color: black;
-    font-size: 5vw;
-    font-family: $FuentePrincipal;
+    @include Fuente (5vw, black, $FuentePrincipal, none);
 }
 
 .MenuOpciones{
@@ -270,11 +258,8 @@ footer {
     margin-bottom: 6rem;
     align-items: center;    
         a{
-            text-decoration: none;
-            color: black;
+            @include Fuente (100%, black, $FuentePrincipal, none);
             text-transform: uppercase;
-            font-family: $FuentePrincipal;
-            font-size: 100%;
         }
         .Iconos{
             display: flex;
@@ -291,8 +276,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 3rem;
-    font-family: $FuentePrincipal;
-    font-size: 5rem;
+    @include Fuente (5rem, black, $FuentePrincipal, none);
 }
 .Productos a{
     text-decoration: none;
@@ -317,9 +301,8 @@ footer {
             height: 9rem;
         }
         h4{
-            font-size: 2vw;
+            @include Fuente (2vw, black, $FuenteSecundaria, none);
             text-transform: uppercase;
-            font-family: $FuenteSecundaria;
             padding-top: 2vw;
             text-align: center;
         }
@@ -368,24 +351,19 @@ footer {
     position: absolute;
     bottom: 5vw;
     right: 5vw;
-    color: black;
-    font-size: 4vw;
-    font-family: $FuenteSecundaria;
+    @include Fuente (4vw, black, $FuenteSecundaria, none);
     font-weight: lighter;
         strong{
             position: absolute;
             bottom: 4vw;
             left: -45vw;
-            color: black;
-            font-size: 8vw;
-            font-family: $FuentePrincipal;
+            @include Fuente (8vw, black, $FuentePrincipal, none);
             text-transform: uppercase;
         }
 }
 
 .GrupoNutrientes h2{
-    font-family: $FuentePrincipal;
-    font-size: 5rem;
+    @include Fuente (5rem, black, $FuentePrincipal, none);
     text-decoration-line: underline;
     margin: 2rem 0;
 }
@@ -393,6 +371,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    
     div:nth-child(3n){
         background-color: #E41D52;
     }
@@ -406,8 +385,7 @@ footer {
         padding: 1rem;
         width: 30rem;
         height: 15rem;
-        font-family: $FuenteSecundaria;
-        font-size: 3rem;   
+        @include Fuente (3rem, black, $FuenteSecundaria, none);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -415,6 +393,10 @@ footer {
         h4{
             font-weight: lighter;
         }
+    }
+    div:hover{
+        padding: 40px;
+        transform: skewY(25deg);
     }
 }
 
@@ -490,29 +472,30 @@ footer {
     position: absolute;
     bottom: 7vw;
     right: 5vw;
-    color: black;
-    font-size: 2vw;
-    font-family: $FuenteSecundaria;
+    @include Fuente (2vw, black, $FuenteSecundaria, none);
     font-weight: lighter;
     strong{
         position: absolute;
         bottom: 2vw;
         left: -45vw;
-        color: black;
-        font-size: 6vw;
-        font-family: $FuentePrincipal;
+        @include Fuente (6vw, black, $FuentePrincipal, none);
         text-transform: uppercase;
     }
 }
-.Curiosidades:nth-child(1){
-    background-color: #BCC6B9;
-}.Curiosidades:nth-child(2){
-    background-color: #A6706E;
-}.Curiosidades:nth-child(3){
-    background-color: #9E9B78;
-}.Curiosidades:nth-child(4){
-    background-color: #AF9277;
+
+$Colores: (
+    #BCC6B9: 1,
+    #A6706E: 2,
+    #9E9B78: 3,
+    #AF9277: 4
+);
+
+@each $color,$numero in $Colores{
+    .Curiosidades:nth-child(#{$numero}){
+        background-color: #{$color};
+    }
 }
+
 .Curiosidades{
     width: 100%;
 }
@@ -549,8 +532,7 @@ footer {
     align-items: center;
 }
 .TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p{
-    font-family: $FuenteSecundaria;
-    font-size: 2rem;
+    @include Fuente (2rem, black, $FuenteSecundaria, none);
     text-align: start;
     margin: 0 1rem;
 }
@@ -567,8 +549,7 @@ footer {
 .Curiosidades h3{
     background-color: white;
     text-transform: uppercase;
-    font-family: $FuentePrincipal;
-    font-size: 5rem;
+    @include Fuente (5rem, black, $FuentePrincipal, none);
     padding: 3rem 0 0 0;
     margin-bottom: 1rem ;
 }
@@ -602,16 +583,13 @@ footer {
     position: absolute;
     bottom: 7vw;
     right: 45vw;
-    color: white;
-    font-size: 4vw;
-    font-family: $FuenteSecundaria;
+    @include Fuente (45vw, white, $FuenteSecundaria, none);
     font-weight: lighter;
     strong{
         position: absolute;
         bottom: 4vw;
         right: 24vw;
-        font-size: 6vw;
-        font-family: $FuentePrincipal;
+        @include Fuente (6vw, black, $FuentePrincipal, none);
         text-transform: uppercase;
     }
 }
@@ -631,8 +609,7 @@ footer {
         margin: 2rem;
     }
     h3{
-        font-size: 3rem;
-        font-family: $FuenteSecundaria;
+        @include Fuente (3rem, black, $FuenteSecundaria, none);
         font-weight: lighter;
     }
 }
