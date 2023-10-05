@@ -113,6 +113,19 @@ nav{
     font-size: 6vw;
 }
 
+footer {
+    background-color: white;
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 3rem;
+            img{
+                width: 10rem;
+                height: auto;
+            }
+        }
+}
 
 /* Informacion */
 #ContenidoRazones{
