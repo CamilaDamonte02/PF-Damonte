@@ -584,13 +584,13 @@ $Colores: (
     position: absolute;
     bottom: 7vw;
     right: 45vw;
-    @include Fuente (45vw, white, $FuenteSecundaria, none);
+    @include Fuente (4vw, white, $FuenteSecundaria, none);
     font-weight: lighter;
     strong{
         position: absolute;
         bottom: 4vw;
         right: 24vw;
-        @include Fuente (6vw, black, $FuentePrincipal, none);
+        @include Fuente (6vw, white, $FuentePrincipal, none);
         text-transform: uppercase;
     }
 }

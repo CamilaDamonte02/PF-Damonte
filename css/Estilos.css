@@ -651,7 +651,7 @@ footer {
   position: absolute;
   bottom: 7vw;
   right: 45vw;
-  font-size: 45vw;
+  font-size: 4vw;
   color: white;
   font-family: "Inter", sans-serif;
   text-decoration: none;
@@ -662,7 +662,7 @@ footer {
     bottom: 4vw;
     right: 24vw;
     font-size: 6vw;
-    color: black;
+    color: white;
     font-family: "Lato", sans-serif;
     text-decoration: none;
     text-transform: uppercase; }
