@@ -481,16 +481,21 @@ footer {
 
 #portada .NombrePaginaCuriosidades h1{
     position: absolute;
-    bottom: 7vw;
+    bottom: 3vw;
     right: 5vw;
-    @include Fuente (2vw, black, $FuenteSecundaria, none);
+    @include Fuente (2vw, white, $FuenteSecundaria, none);
+    background-color: black;
+    border-radius: 50px;
+    padding: 0.7vw;
     font-weight: lighter;
     strong{
         position: absolute;
         bottom: 2vw;
         left: -45vw;
-        @include Fuente (6vw, black, $FuentePrincipal, none);
+        @include Fuente (6vw, white, $FuentePrincipal, none);
+        text-shadow: 1px 1px 2px black;
         text-transform: uppercase;
+        margin-bottom: 1vw;
     }
 }
 
