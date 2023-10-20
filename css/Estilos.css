@@ -720,4 +720,19 @@ footer {
   .Videos {
     grid-template-columns: 1fr; } }
 
+@media (max-width: 400px) {
+  /* line 646, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  .Videos iframe {
+    width: 90vw;
+    height: auto; }
+  /* line 650, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  .Youtuber {
+    margin: 0 0 1rem 0; }
+    /* line 652, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    .Youtuber h3 {
+      font-size: 20px; }
+    /* line 655, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    .Youtuber img {
+      width: 30vw; } }
+
 /*# sourceMappingURL=Estilos.css.map */
