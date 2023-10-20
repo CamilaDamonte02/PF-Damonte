@@ -86,7 +86,7 @@ nav{
             left: 5vw;
             @include Fuente (5vw, white, $FuentePrincipal, none);
         }
-        h3{
+        h2{
             position: absolute;
             bottom: 4vw;
             right: 4vw;
@@ -557,7 +557,7 @@ $Colores: (
     "Parrafo foto";
     grid-template-columns: 3fr 1fr;
 }
-.Curiosidades h3{
+.Curiosidades h2{
     background-color: white;
     text-transform: uppercase;
     @include Fuente (5rem, black, $FuentePrincipal, none);
@@ -579,7 +579,7 @@ $Colores: (
         width: 70vw;
         height: auto;
     }
-    .Curiosidades h3{
+    .Curiosidades h2{
         font-size: 7vw;
         display: flex;
         justify-content: center;

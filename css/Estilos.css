@@ -95,7 +95,7 @@ nav {
     font-family: "Lato", sans-serif;
     text-decoration: none; }
   /* line 89, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
-  #portada h3 {
+  #portada h2 {
     position: absolute;
     bottom: 4vw;
     right: 4vw;
@@ -623,7 +623,7 @@ footer {
   grid-template-columns: 3fr 1fr; }
 
 /* line 560, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
-.Curiosidades h3 {
+.Curiosidades h2 {
   background-color: white;
   text-transform: uppercase;
   font-size: 5rem;
@@ -648,7 +648,7 @@ footer {
     width: 70vw;
     height: auto; }
   /* line 582, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
-  .Curiosidades h3 {
+  .Curiosidades h2 {
     font-size: 7vw;
     display: flex;
     justify-content: center; }
