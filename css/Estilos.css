@@ -694,18 +694,21 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  /* line 623, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  .Canal a {
+    text-decoration: none; }
 
-/* line 624, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 627, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Youtuber {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 3rem; }
-  /* line 629, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 632, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Youtuber img {
     border-radius: 50%;
     margin: 2rem; }
-  /* line 633, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 636, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Youtuber h3 {
     font-size: 3rem;
     color: black;
@@ -713,35 +716,35 @@ footer {
     text-decoration: none;
     font-weight: lighter; }
 
-/* line 638, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 641, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Videos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem; }
 
 @media (max-width: 940px) {
-  /* line 645, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 648, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   iframe {
     width: 30rem;
     height: auto; } }
 
 @media (max-width: 650px) {
-  /* line 651, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 654, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Videos {
     grid-template-columns: 1fr; } }
 
 @media (max-width: 400px) {
-  /* line 656, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 659, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Videos iframe {
     width: 90vw;
     height: auto; }
-  /* line 660, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 663, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Youtuber {
     margin: 0 0 1rem 0; }
-    /* line 662, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 665, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Youtuber h3 {
       font-size: 20px; }
-    /* line 665, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 668, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Youtuber img {
       width: 30vw; } }
 
