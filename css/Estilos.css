@@ -20,9 +20,10 @@ header nav {
   /* line 28, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   header nav img {
     width: 20rem;
-    height: auto; }
+    height: auto;
+    margin-top: 1.5rem; }
 
-/* line 33, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 34, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 ol {
   display: flex;
   gap: 1.5rem;
@@ -30,18 +31,18 @@ ol {
   margin-right: 3rem;
   align-items: center;
   margin-top: 1%; }
-  /* line 40, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 41, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   ol li {
     display: flex;
     justify-content: space-between; }
-    /* line 43, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 44, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     ol li a {
       font-size: 1.5vw;
       color: black;
       font-family: "Inter", sans-serif;
       text-decoration: none;
       display: block; }
-    /* line 47, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 48, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     ol li a:hover {
       font-size: 1.5vw;
       color: white;
@@ -52,7 +53,7 @@ ol {
       padding: 1rem;
       display: block;
       transition: 0.4s; }
-    /* line 55, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 56, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     ol li a:active {
       font-size: 1.5vw;
       color: white;
@@ -64,11 +65,11 @@ ol {
       display: block;
       transition: 0.2s; }
 
-/* line 66, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 67, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 nav {
   background-color: white; }
 
-/* line 69, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 70, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #PaginaActual {
   background-color: #2D5712;
   border-radius: 10px;
@@ -76,19 +77,19 @@ nav {
   padding: 1rem; }
 
 /* imagen de portada con texto encima */
-/* line 76, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 77, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 * h1 strong {
   font-size: 7vw; }
 
-/* line 79, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 80, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada {
   position: relative; }
-  /* line 81, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 82, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #portada img {
     width: 100%;
     height: auto;
     display: block; }
-  /* line 86, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 87, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #portada .nombrePagina {
     position: absolute;
     top: 5vw;
@@ -97,7 +98,7 @@ nav {
     color: white;
     font-family: "Lato", sans-serif;
     text-decoration: none; }
-  /* line 92, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 93, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #portada h2 {
     position: absolute;
     bottom: 4vw;
@@ -109,44 +110,44 @@ nav {
     text-decoration: none;
     right: 2vw; }
 
-/* line 102, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 103, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .nombrePagina h1,
 #portada .NombrePaginaProdAptos h1 {
   line-height: 5.5vw; }
 
-/* line 107, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 108, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .nombrePagina h1:nth-child(2) {
   font-size: 6vw;
   color: white;
   font-family: "Inter", sans-serif;
   text-decoration: none; }
 
-/* line 110, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 111, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .NombrePaginaProdAptos h1:nth-child(2) {
   font-size: 6vw;
   color: black;
   font-family: "Inter", sans-serif;
   text-decoration: none; }
 
-/* line 114, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 115, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 footer {
   background-color: white; }
-  /* line 116, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 117, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   footer div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 3rem; }
-    /* line 121, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 122, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     footer div img {
       width: 10rem;
       height: auto; }
 
 /* Informacion */
-/* line 129, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 130, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #ContenidoRazones {
   padding: 0; }
-  /* line 131, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 132, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #ContenidoRazones h2 {
     font-family: "Inter", sans-serif;
     margin: 2% 0;
@@ -154,7 +155,7 @@ footer {
     display: flex;
     justify-content: center; }
 
-/* line 140, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 141, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TresRazones {
   display: flex;
   flex-direction: row;
@@ -163,7 +164,7 @@ footer {
   padding: 0;
   gap: 3rem; }
 
-/* line 149, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 150, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Razones {
   background-color: #2D5712;
   margin: 1vw;
@@ -177,13 +178,13 @@ footer {
   justify-content: center;
   gap: 5%;
   transition: all 1s; }
-  /* line 162, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 163, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Razones div img {
     height: 15rem;
     width: auto;
     margin-bottom: 15%;
     overflow: hidden; }
-  /* line 168, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 169, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Razones h3 {
     font-size: 400%;
     color: white;
@@ -193,7 +194,7 @@ footer {
     text-align: center;
     padding: 0;
     margin-top: 4%; }
-  /* line 175, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 176, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Razones p {
     font-size: 300%;
     color: white;
@@ -202,64 +203,64 @@ footer {
     text-align: center;
     margin: 0 10%; }
 
-/* line 182, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 183, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Razones:hover {
   transform: scale(1.1); }
 
 @media (max-width: 900px) {
-  /* line 187, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 188, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #ContenidoRazones h2 {
     font-size: 12vw; }
-  /* line 190, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 191, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .TresRazones {
     display: flex;
     flex-direction: column; }
-  /* line 194, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 195, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Razones {
     min-height: 50vw;
     width: 90vw;
     gap: 3vw;
     padding: 2vw; }
-    /* line 199, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 200, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Razones h3 {
       font-size: 4vw; }
-    /* line 202, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 203, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Razones p {
       font-size: 3vw; }
-    /* line 205, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 206, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Razones div img {
       height: 13vw; } }
 
 @media (max-width: 950px) and (orientation: landscape) {
-  /* line 212, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 213, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #ContenidoRazones h2 {
     font-size: 12vw; }
-  /* line 215, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 216, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .TresRazones {
     display: flex;
     flex-direction: column; }
-  /* line 219, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 220, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Razones {
     min-height: 50vw;
     width: 90vw;
     gap: 3vw;
     padding: 2vw; }
-    /* line 224, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 225, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Razones h3 {
       font-size: 4vw; }
-    /* line 227, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 228, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Razones p {
       font-size: 3vw; }
-    /* line 230, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 231, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Razones div img {
       height: 13vw; } }
 
 /* Comenzamos con el estilo de algunas cosas personalizadas de la pagina productos aptos */
-/* line 237, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 238, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .ProdAptos {
   background-color: #EDEDED; }
 
-/* line 240, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 241, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .contenedor {
   max-width: 1200px;
   width: 100%;
@@ -270,7 +271,7 @@ footer {
   flex-direction: column;
   align-items: center; }
 
-/* line 250, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 251, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .NombrePaginaProdAptos {
   position: absolute;
   bottom: 5vw;
@@ -280,7 +281,7 @@ footer {
   font-family: "Lato", sans-serif;
   text-decoration: none; }
 
-/* line 257, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 258, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .MenuOpciones {
   background-color: white;
   display: flex;
@@ -293,31 +294,31 @@ footer {
   align-items: center;
   transform: scale(1.2);
   transition: transform 1s ease-in-out; }
-  /* line 269, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 270, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .MenuOpciones a {
     font-size: 100%;
     color: black;
     font-family: "Lato", sans-serif;
     text-decoration: none;
     text-transform: uppercase; }
-  /* line 273, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 274, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .MenuOpciones a:hover {
     transform: scale(1.2);
     transition: transform 0.5s ease-in-out;
     background-color: white;
     border: solid white 2px;
     margin: 3rem; }
-  /* line 280, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 281, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .MenuOpciones .Iconos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    /* line 285, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 286, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .MenuOpciones .Iconos img {
       height: 100px; }
 
-/* line 291, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 292, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Productos h2 {
   display: flex;
   justify-content: center;
@@ -327,17 +328,17 @@ footer {
   font-family: "Lato", sans-serif;
   text-decoration: none; }
 
-/* line 297, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 298, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Productos a {
   text-decoration: none;
   color: black; }
 
-/* line 301, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 302, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Seccion6Productos {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
-/* line 305, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 306, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Producto {
   background-color: #EDEDED;
   margin: 1rem;
@@ -349,10 +350,10 @@ footer {
   padding: 2rem 0;
   width: 30rem;
   overflow: hidden; }
-  /* line 316, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 317, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto img {
     height: 9rem; }
-  /* line 319, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 320, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto h4 {
     font-size: 2vw;
     color: black;
@@ -363,41 +364,41 @@ footer {
     text-align: center; }
 
 @media (max-width: 980px) {
-  /* line 328, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 329, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto {
     width: 20rem; }
-  /* line 331, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 332, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto img {
     height: 7rem; }
-  /* line 334, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 335, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto h4 {
     font-size: 2rem; } }
 
 @media (max-width: 680px) {
-  /* line 340, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 341, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Seccion6Productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
-  /* line 344, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 345, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto {
     width: 20rem; } }
 
 @media (max-width: 480px) {
-  /* line 350, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 351, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Seccion6Productos {
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
-  /* line 354, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 355, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Producto {
     width: 20rem; } }
 
 @media (max-width: 991px) {
-  /* line 360, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 361, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .MenuOpciones {
     display: none; } }
 
 /* Comenzamos con el estilo de algunas cosas personalizadas de la pagina nutrientes */
-/* line 366, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 367, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .NombrePaginaNutrientes h1 {
   position: absolute;
   bottom: 5vw;
@@ -407,7 +408,7 @@ footer {
   font-family: "Inter", sans-serif;
   text-decoration: none;
   font-weight: lighter; }
-  /* line 372, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 373, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #portada .NombrePaginaNutrientes h1 strong {
     position: absolute;
     bottom: 4vw;
@@ -418,7 +419,7 @@ footer {
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 381, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 382, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .GrupoNutrientes h2 {
   font-size: 5rem;
   color: black;
@@ -427,21 +428,21 @@ footer {
   text-decoration-line: underline;
   margin: 2rem 0; }
 
-/* line 386, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 387, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .ListadoNutrientes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem; }
-  /* line 391, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 392, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div:nth-child(3n) {
     background-color: #E41D52; }
-  /* line 394, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 395, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div:nth-child(3n+1) {
     background-color: #83AB1A; }
-  /* line 397, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 398, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div:nth-child(3n+2) {
     background-color: #DF9A17; }
-  /* line 400, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 401, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div {
     padding: 1rem;
     width: 30rem;
@@ -454,86 +455,86 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center; }
-    /* line 409, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 410, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .ListadoNutrientes div h4 {
       font-weight: lighter; }
-  /* line 413, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 414, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div:hover {
     transform: scale(1.3);
     transition: transform 1s ease-in-out;
     border: white solid; }
 
-/* line 420, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 421, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 * .ListadoNutrientes h3 {
   font-size: 2vw; }
 
-/* line 423, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 424, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 * .ListadoNutrientes h4 {
   font-size: 1.5vw; }
 
-/* line 426, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 427, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .ListadoNutrientes div h3 {
   font-style: italic; }
 
 @media (max-width: 1500px) {
-  /* line 430, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 431, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   * .ListadoNutrientes h3 {
     font-size: 3vw; }
-  /* line 433, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 434, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   * .ListadoNutrientes h4 {
     font-size: 2vw; } }
 
 @media (max-width: 980px) {
-  /* line 438, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 439, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .GrupoNutrientes h2 {
     font-size: 5vw;
     margin: 0; }
-  /* line 442, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 443, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div {
     padding: 1rem;
     width: 30vw;
     height: 15vw;
     font-size: 3vw; }
-  /* line 448, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 449, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   * .ListadoNutrientes h3 {
     font-size: 3rem; }
-  /* line 451, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 452, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   * .ListadoNutrientes h4 {
     font-size: 2rem; } }
 
 @media (max-width: 600px) {
-  /* line 456, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 457, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   * .ListadoNutrientes h3 {
     font-size: 2rem; }
-  /* line 459, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 460, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   * .ListadoNutrientes h4 {
     font-size: 1rem; } }
 
 @media (max-width: 380px) {
-  /* line 464, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 465, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div:nth-child(2n) {
     background-color: #E41D52; }
-  /* line 467, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 468, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div:nth-child(2n+1) {
     background-color: #83AB1A; }
-  /* line 470, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 471, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes {
     grid-template-columns: repeat(2, 1fr); }
-  /* line 473, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 474, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 21vw; }
-  /* line 479, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 480, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div h4 {
     font-size: 4vw; }
-  /* line 482, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 483, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .ListadoNutrientes div h3 {
     font-size: 5vw; } }
 
 /* Comenzamos con el estilo de algunas cosas personalizadas de la pagina curiosidades*/
-/* line 488, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 489, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .NombrePaginaCuriosidades h1 {
   position: absolute;
   bottom: 3vw;
@@ -546,7 +547,7 @@ footer {
   border-radius: 50px;
   padding: 0.7vw;
   font-weight: lighter; }
-  /* line 497, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 498, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #portada .NombrePaginaCuriosidades h1 strong {
     position: absolute;
     bottom: 2vw;
@@ -559,62 +560,62 @@ footer {
     text-transform: uppercase;
     margin-bottom: 1vw; }
 
-/* line 516, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 517, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Curiosidades:nth-child(1) {
   background-color: #BCC6B9; }
 
-/* line 516, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 517, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Curiosidades:nth-child(2) {
   background-color: #A6706E; }
 
-/* line 516, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 517, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Curiosidades:nth-child(3) {
   background-color: #9E9B78; }
 
-/* line 516, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 517, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Curiosidades:nth-child(4) {
   background-color: #AF9277; }
 
-/* line 521, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 522, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Curiosidades {
   width: 100%; }
 
-/* line 524, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 525, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .FotoTextoCuriosidadesIzquierda img, .FotoTextoCuriosidadesDerecha img {
   grid-area: foto; }
 
-/* line 528, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 529, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p {
   grid-area: Parrafo; }
 
-/* line 531, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 532, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .FotoTextoCuriosidadesIzquierda {
   display: grid;
   grid-template-areas: "foto parrafo";
   grid-template-columns: 1fr 3fr; }
 
-/* line 538, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 539, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TextoCuriosidades3Filas {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 2rem;
   margin: 0 1rem; }
 
-/* line 544, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 545, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TextoCuriosidades4Filas {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 2rem;
   margin: 0 1rem; }
 
-/* line 550, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 551, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TextoCuriosidades3Filas div, .TextoCuriosidades4Filas div {
   background-color: white;
   margin-bottom: 1rem;
   display: flex;
   align-items: center; }
 
-/* line 556, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 557, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p {
   font-size: 2rem;
   color: black;
@@ -623,17 +624,17 @@ footer {
   text-align: start;
   margin: 0 1rem; }
 
-/* line 561, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 562, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .TextoCuriosidades3Filas p span, .TextoCuriosidades4Filas p span {
   font-weight: bolder; }
 
-/* line 565, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 566, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .FotoTextoCuriosidadesDerecha {
   display: grid;
   grid-template-areas: "Parrafo foto";
   grid-template-columns: 3fr 1fr; }
 
-/* line 571, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 572, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Curiosidades h2 {
   background-color: white;
   text-transform: uppercase;
@@ -645,30 +646,30 @@ footer {
   margin-bottom: 1rem; }
 
 @media (max-width: 600px) {
-  /* line 580, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 581, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .FotoTextoCuriosidadesIzquierda, .FotoTextoCuriosidadesDerecha {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem; }
-  /* line 586, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 587, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .TextoCuriosidades3Filas p, .TextoCuriosidades4Filas p {
     font-size: 4vw; }
-  /* line 589, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 590, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .FotoTextoCuriosidadesIzquierda img, .FotoTextoCuriosidadesDerecha img {
     width: 70vw;
     height: auto; }
-  /* line 593, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 594, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Curiosidades h2 {
     font-size: 7vw;
     display: flex;
     justify-content: center; }
-  /* line 598, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 599, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   main {
     width: 100%; } }
 
 /* Comenzamos con el estilo de algunas cosas personalizadas de la pagina Recetas*/
-/* line 604, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 605, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 #portada .NombrePaginaRecetas h1 {
   position: absolute;
   bottom: 7vw;
@@ -678,7 +679,7 @@ footer {
   font-family: "Inter", sans-serif;
   text-decoration: none;
   font-weight: lighter; }
-  /* line 610, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 611, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   #portada .NombrePaginaRecetas h1 strong {
     position: absolute;
     bottom: 4vw;
@@ -689,26 +690,26 @@ footer {
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 619, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 620, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Canal {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  /* line 623, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 624, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Canal a {
     text-decoration: none; }
 
-/* line 627, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 628, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Youtuber {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 3rem; }
-  /* line 632, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 633, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Youtuber img {
     border-radius: 50%;
     margin: 2rem; }
-  /* line 636, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 637, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Youtuber h3 {
     font-size: 3rem;
     color: black;
@@ -716,35 +717,35 @@ footer {
     text-decoration: none;
     font-weight: lighter; }
 
-/* line 641, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+/* line 642, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
 .Videos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem; }
 
 @media (max-width: 940px) {
-  /* line 648, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 649, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   iframe {
     width: 30rem;
     height: auto; } }
 
 @media (max-width: 650px) {
-  /* line 654, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 655, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Videos {
     grid-template-columns: 1fr; } }
 
 @media (max-width: 400px) {
-  /* line 659, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 660, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Videos iframe {
     width: 90vw;
     height: auto; }
-  /* line 663, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+  /* line 664, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
   .Youtuber {
     margin: 0 0 1rem 0; }
-    /* line 665, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 666, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Youtuber h3 {
       font-size: 20px; }
-    /* line 668, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
+    /* line 669, ../../../Documents/conderHouse/Entrega 2/scss/Estilos.scss */
     .Youtuber img {
       width: 30vw; } }
 
